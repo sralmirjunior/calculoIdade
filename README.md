@@ -3,3 +3,23 @@
 
 
 Este código permite que você insira uma idade e de acordo com ela, define se a pessoa está na melhor idade ou é adulto, adolescente, criança.
+
+### Pré-requisito:
+* Instalar o [Dart](https://dart.dev/get-dart);
+
+### Desejável:
+* Instalar a IDE [Visual Studio Code](https://code.visualstudio.com/download);
+
+### Como usar:
+* Insere o comando: git clone https://github.com/sralmirjunior/calculoIdade.git
+* Abre o terminal/prompt de comando na pasta que reproduzir o "git clone";
+* Insere o comando: dart calculoIdade.dart 
+  * Será solicitado a inserção de uma idade;
+  * Após a inserção, terá o resultado final. 
+
+### Informações complementares:
+* Parâmetros adotados:
+  * Menor que 12 | Criança
+  * Entre 12 e 17 | Adolescente
+  * Entre 18 e 59 | Adulto
+  * Maior que 60 | Melhor idade
