@@ -7,13 +7,24 @@ Este código permite que você insira uma idade e de acordo com ela, define se a
 ### Pré-requisito:
 * Instalar o [Dart](https://dart.dev/get-dart);
 
-### Desejável:
+### Recomendável:
 * Instalar a IDE [Visual Studio Code](https://code.visualstudio.com/download);
 
-### Como usar:
-* Insere o comando: git clone https://github.com/sralmirjunior/calculoIdade.git
-* Abre o terminal/prompt de comando na pasta que reproduzir o "git clone";
-* Insere o comando: dart calculoIdade.dart 
+### Instruções:
+* Clone o repositório: 
+```bash
+git clone https://github.com/sralmirjunior/calculoIdade.git
+```
+
+* Entre na pasta:
+```bash
+cd ./calculoIdade
+```
+
+* Insere o comando: 
+```bash
+dart calculoIdade.dart 
+```
   * Será solicitado a inserção de uma idade;
   * Após a inserção, terá o resultado final. 
 
